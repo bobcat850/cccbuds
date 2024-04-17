@@ -17,21 +17,21 @@ const Header: React.FC = () => {
         pos={{ top: "0%", left: "50%" }}
         color="hsl(277deg 59% 39% / 20%)"
       />
-      <div className="max-w-5xl mx-auto flex justify-between items-center ">
+      <div className="flex items-center justify-between max-w-5xl mx-auto ">
         <div>
           <Image
             className="md:hidden"
             width={48}
             height={48}
-            src="/thirdweb.svg"
-            alt="thirdweb"
+            src="/ccc.svg"
+            alt="ccc"
           />
           <Image
             className="hidden md:block"
-            width={194}
-            height={28}
+            width={32}
+            height={32}
             src="/logo.png"
-            alt="thirdweb"
+            alt="ccc"
           />
         </div>
 

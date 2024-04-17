@@ -11,7 +11,7 @@ import {
 const Welcome: React.FC = () => {
   return (
     <div className="flex flex-col items-center w-full space-y-12">
-      <h1 className="font-bold sm:text-6xl text-4xl leading-none text-center tracking-tight">
+      <h1 className="text-4xl font-bold leading-none tracking-tight text-center sm:text-6xl">
         Welcome to&nbsp;
         <span
           className="!bg-clip-text text-transparent"
@@ -20,15 +20,15 @@ const Welcome: React.FC = () => {
               "linear-gradient(73.59deg, #C339AC 42.64%, #CD4CB5 54%, #E173C7 77.46%)",
           }}
         >
-          Cat Attack
+          Cross Chain Cannasseurs
         </span>
       </h1>
       <div className="mx-auto">
         <Image
-          src="/cat-attack.png"
-          width={400}
-          height={320}
-          alt="Cat Attack"
+          src="/hero-asset.png"
+          width={4001}
+          height={2251}
+          alt="CCCannasseurs"
         />
       </div>
       <div className="max-w-xs">
